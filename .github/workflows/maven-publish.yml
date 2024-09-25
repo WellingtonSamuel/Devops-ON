@@ -9,8 +9,7 @@ on:
 
 jobs:
   build:
-  needs: build
-
+  
     runs-on: ubuntu-latest
     permissions:
       contents: read
